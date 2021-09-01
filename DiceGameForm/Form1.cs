@@ -37,7 +37,7 @@ namespace DiceGameForm
 
             var a = diceClassRepository.GetFace();
 
-            Image img = Image.FromFile(@"C:\Users\Abdusselam\source\repos\diceGame\DiceGameForm\Dices\Dice" + a + ".jpg");
+            Image img = Image.FromFile(@"C:\Users\..\source\repos\diceGame\DiceGameForm\Dices\Dice" + a + ".jpg");
 
 
             
@@ -59,7 +59,7 @@ namespace DiceGameForm
 
             var a = diceClassRepository.GetFace();
 
-            Image img = Image.FromFile(@"C:\Users\Abdusselam\source\repos\diceGame\DiceGameForm\Dices\Dice" + a + ".jpg");
+            Image img = Image.FromFile(@"C:\Users\..\source\repos\diceGame\DiceGameForm\Dices\Dice" + a + ".jpg");
 
 
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -70,7 +70,7 @@ namespace DiceGameForm
 
 
             a = diceClassRepository.GetFace();
-            Image img1 = Image.FromFile(@"C:\Users\Abdusselam\source\repos\diceGame\DiceGameForm\Dices\Dice" + a + ".jpg");
+            Image img1 = Image.FromFile(@"C:\Users\..\source\repos\diceGame\DiceGameForm\Dices\Dice" + a + ".jpg");
 
 
 
@@ -149,7 +149,7 @@ namespace DiceGameForm
 
         private void button7_Click(object sender, EventArgs e)
         {
-            SoundPlayer splayer = new SoundPlayer(@"C:\Users\Abdusselam\source\repos\diceGame\DiceGameForm\Dices\vurgunum.wav");
+            SoundPlayer splayer = new SoundPlayer(@"C:\Users\..\source\repos\diceGame\DiceGameForm\Dices\vurgunum.wav");
             splayer.Play();
 
         }

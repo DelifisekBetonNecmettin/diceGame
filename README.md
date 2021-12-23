@@ -1,2 +1,2 @@
 # diceGame
-basit Dice game with c# windowsForm application 
+Basic Dice game that been created with c# windowsForm application 
